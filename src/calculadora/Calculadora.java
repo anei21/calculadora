@@ -5,6 +5,7 @@
  */
 package calculadora;
 import java.awt.*;
+import java.awt.event.*;
 
 /**
  *
@@ -38,13 +39,12 @@ public class Calculadora {
         b17=new Button("0");
         b18=new Button("=");
         bb=new Button("Escribir");
-        t=new TextField("0");
+        t=new TextField("0",3);
     }
     public void launchFrame(){
         f.setSize(700, 1000);
         
         p.setSize(700, 700);
-        t.
         GridLayout r=new GridLayout(6,3);
         p.setLayout(r);
         p.add(b1);
